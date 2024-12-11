@@ -1,0 +1,11 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Find new products, services, and trends in the {topic} industry
+    Also look for companies, people, and events related to {topic}
+    Make sure you find any interesting and relevant information of the last seven days before {today}.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic} in the last seven days before {today}
+  agent: researcher
+  output_file: report.md
+
